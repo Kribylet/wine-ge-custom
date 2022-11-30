@@ -1,0 +1,11 @@
+--- a/dlls/winebus.sys/bus_sdl.c        2022-02-27 10:59:00.559367161 +0100
++++ b/dlls/winebus.sys/bus_sdl.c        2022-02-27 10:58:24.192364546 +0100
+@@ -238,7 +238,7 @@
+         {.UsagePage = HID_USAGE_PAGE_GENERIC,    .Usage = HID_USAGE_GENERIC_RY},
+         {.UsagePage = HID_USAGE_PAGE_GENERIC,    .Usage = HID_USAGE_GENERIC_RZ},
+         {.UsagePage = HID_USAGE_PAGE_SIMULATION, .Usage = HID_USAGE_SIMULATION_THROTTLE},
+-        {.UsagePage = HID_USAGE_PAGE_SIMULATION, .Usage = HID_USAGE_SIMULATION_RUDDER},
++        {.UsagePage = HID_USAGE_PAGE_GENERIC,    .Usage = HID_USAGE_GENERIC_SLIDER},
+         {.UsagePage = HID_USAGE_PAGE_GENERIC,    .Usage = HID_USAGE_GENERIC_WHEEL},
+         {.UsagePage = HID_USAGE_PAGE_SIMULATION, .Usage = HID_USAGE_SIMULATION_ACCELERATOR},
+         {.UsagePage = HID_USAGE_PAGE_SIMULATION, .Usage = HID_USAGE_SIMULATION_BRAKE},
